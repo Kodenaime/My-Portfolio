@@ -36,3 +36,17 @@ menu.onscroll = () =>{
 //   }
 
 // })
+
+function myFunction() {
+
+  alert("CV not yet available !");  
+      alert(true);
+      
+ }
+
+ function myFunction1() {
+
+  alert("Contact coming soon !");  
+      alert(true);
+      
+ }

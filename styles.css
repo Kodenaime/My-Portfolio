@@ -8,7 +8,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all 0.3s linear;
     line-height: 1.5;
   }
@@ -271,6 +270,96 @@
 }
 
 
+/* skills styles */
+.skills .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.skills .row .skill{
+  flex:  1 1 40rem;
+}
+
+.skills .row .skill .progress{
+  padding: 1rem 0;
+}
+
+.skills .row .skill .progress h3{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 0;
+  font-size: 1.7rem;
+  color: #111;
+  font-weight: 400;
+}
+
+.skills .row .skill .progress .bar{
+  width: 100%;
+  background: #666;
+  overflow: hidden;
+  height: 1rem;
+  border-radius: 50rem;
+}
+
+.skills .row .skill .progress .bar span{
+  display: block;
+  height: 100%;
+  background-color: orangered;
+  border-radius: 50rem;
+}
+
+.skills .row .skill .progress:nth-child(1) .bar span{
+  width: 90%;
+}
+
+.skills .row .skill .progress:nth-child(2) .bar span{
+  width: 80%;
+}
+
+.skills .row .skill .progress:nth-child(3) .bar span{
+  width: 70%;
+}
+
+.skills .row .skill .progress:nth-child(4) .bar span{
+  width: 65%;
+}
+
+.skills .row .boxer{
+  flex: 1 1 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+
+.skills .row .boxer .box{
+  flex: 1 1 15rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.skills .row .boxer .box h3{
+  color: orangered;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.skills .row .boxer .box p{
+  color: #111;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+
+
+
+
+
+/* skills styles */
 
 
 /* services styles */
