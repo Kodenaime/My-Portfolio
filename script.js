@@ -35,14 +35,14 @@ menu.onscroll = () =>{
 //     cursor2.classList.remove('active');
 //   }
 
-// })
+// // })
 
-function myFunction() {
+// function myFunction() {
 
-  alert("CV not yet available !");  
-      alert(true);
+//   alert("CV not yet available !");  
+//       alert(true);
       
- }
+//  }
 
  function myFunction1() {
 
