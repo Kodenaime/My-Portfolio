@@ -37,12 +37,12 @@ menu.onscroll = () =>{
 
 // // })
 
-// function myFunction() {
+function myFunction2() {
 
-//   alert("CV not yet available !");  
-//       alert(true);
+   alert("project is not live at the moment !");  
+       alert(true);
       
-//  }
+ }
 
  function myFunction1() {
 
